@@ -105,4 +105,4 @@ b.stride(), b.shape
 # Output:
 ((0, 1), torch.Size([4, 3]))
 ```
-想象有一个光标在 b 的 row 上移动, 当需要移动到下一个 row 时, 因为 tride = 0, 光标位置不会发生变化
+想象有一个 cursor 在 b 的 row 上移动, 当需要移动到下一个 row 时, 因为 tride = 0, cursor 位置不会发生变化
